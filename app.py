@@ -78,7 +78,7 @@ def analyze_sentiment(comments):
     return pd.DataFrame(results)
 
 # --- Streamlit UI ---
-st.title("📊 YouTube Comment Sentiment Analysis")
+st.title("📊 YouTube Video Comment Sentiment Analysis")
 video_url = st.text_input("Enter YouTube Video URL:")
 
 if st.button("Analyze"):

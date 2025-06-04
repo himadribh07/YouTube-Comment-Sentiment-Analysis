@@ -1,4 +1,4 @@
-# 📊 YouTube Comment Sentiment Analyzer
+# 📊 YouTube Video Comment Sentiment Analyzer
 
 A Streamlit web app that fetches the top comments from a YouTube video and analyzes their sentiment using a Hugging Face transformer model.
 
@@ -26,7 +26,7 @@ A Streamlit web app that fetches the top comments from a YouTube video and analy
 
 ## 🖥️ Demo
 
-> (https://youtube-comment-sentiment-analysis-7.streamlit.app/)
+> (https://youtube-video-comment-sentiment-analysis-7.streamlit.app/)
 
 ---
 
