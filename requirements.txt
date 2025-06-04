@@ -1,5 +1,5 @@
 streamlit
 pandas
-transformers==4.35.2
-torch==2.1.2
+torch==2.7.0
+transformers==4.40.1
 google-api-python-client
