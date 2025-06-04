@@ -13,7 +13,13 @@ from transformers import pipeline
 api_key = st.secrets["api_key"]  # or paste directly for local testing
 
 # --- Sentiment Pipeline ---
-sentiment_pipeline = pipeline("sentiment-analysis")
+
+sentiment_pipeline = pipeline(
+    "sentiment-analysis",
+    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    revision="714eb0f"
+)
+
 
 # --- Helper to extract video ID ---
 def extract_video_id(url):
