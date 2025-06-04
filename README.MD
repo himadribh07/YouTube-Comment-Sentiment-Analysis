@@ -32,7 +32,7 @@ A Streamlit web app that fetches the top comments from a YouTube video and analy
 
 ## 📷 Screenshot
 
-> ![alt text](image.png)
+> ![alt text](image-1.png)
 
 ---
 
