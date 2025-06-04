@@ -26,13 +26,13 @@ A Streamlit web app that fetches the top comments from a YouTube video and analy
 
 ## 🖥️ Demo
 
-> [(https://youtube-comment-sentiment-analysis-7.streamlit.app/)]
+> (https://youtube-comment-sentiment-analysis-7.streamlit.app/)
 
 ---
 
 ## 📷 Screenshot
 
-> 
+> ![alt text](image.png)
 
 ---
 
