@@ -15,7 +15,7 @@ api_key = st.secrets["api_key"]  # or paste directly for local testing
 # --- Sentiment Pipeline ---
 
 sentiment_pipeline = pipeline(
-    "sentiment-analysis",
+    "sentiment-analysis"
 )
 
 
