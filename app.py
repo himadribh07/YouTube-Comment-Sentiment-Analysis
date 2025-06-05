@@ -148,7 +148,11 @@ except Exception as e:
 
 # --- Sentiment Pipeline ---
 try:
-    sentiment_pipeline = pipeline("sentiment-analysis")
+    sentiment_pipeline = pipeline(
+    "sentiment-analysis",
+    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+)
+
 except Exception as e:
     st.error(f"Error loading sentiment model: {str(e)}")
     st.stop()
