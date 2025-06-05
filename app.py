@@ -59,7 +59,7 @@ def get_comments_with_likes_filtered(video_id, max_comments=500, max_retries=5):
     next_page_token = None
     
     # st.info(f"Attempting to fetch comments for video ID: {video_id}")
-
+    st.write("Fetching comments...") 
     for attempt in range(max_retries):
         try:
             youtube = build('youtube', 'v3', developerKey=api_key)
@@ -86,9 +86,9 @@ def get_comments_with_likes_filtered(video_id, max_comments=500, max_retries=5):
                             'likes': like_count
                         })
 
-                if len(comments) >= max_comments:
-                    st.info(f"Collected {len(comments)} comments. Stopping.")
-                    break
+                # if len(comments) >= max_comments:
+                #     st.info(f"Collected {len(comments)} comments. Stopping.")
+                #     break
 
                 next_page_token = response.get("nextPageToken")
                 if not next_page_token:
