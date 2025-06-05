@@ -58,14 +58,14 @@ def get_comments_with_likes_filtered(video_id, max_comments=500, max_retries=5):
     comments = []
     next_page_token = None
     
-    st.info(f"Attempting to fetch comments for video ID: {video_id}")
+    # st.info(f"Attempting to fetch comments for video ID: {video_id}")
 
     for attempt in range(max_retries):
         try:
             youtube = build('youtube', 'v3', developerKey=api_key)
 
             while len(comments) < max_comments:
-                st.write(f"Fetching page {len(comments) // 100 + 1} (Attempt {attempt + 1})...")
+                # st.write(f"Fetching page {len(comments) // 100 + 1} (Attempt {attempt + 1})...")
                 request = youtube.commentThreads().list(
                     part="snippet",
                     videoId=video_id,
