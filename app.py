@@ -2,7 +2,7 @@ import re
 import streamlit as st
 import pandas as pd
 from googleapiclient.discovery import build
-from google.apiclient.errors import HttpError
+from googleapiclient.errors import HttpError
 from transformers import pipeline
 import torch
 import time
