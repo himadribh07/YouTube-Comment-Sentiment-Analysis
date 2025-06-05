@@ -10,7 +10,7 @@ import random
 
 # --- Streamlit Page Configuration ---
 # THIS MUST BE THE FIRST STREAMLIT COMMAND IN YOUR SCRIPT
-st.set_page_config(page_title="YouTube Comment Sentiment", page_icon="📊", layout="wide")
+st.set_page_config(page_title="YouTube Comment Sentiment", page_icon="📊", layout="centered")
 
 # --- PyTorch/Streamlit Compatibility Fix ---
 torch.classes.__path__ = []
