@@ -2,3 +2,5 @@
 __pycache__/
 .env
 ..devcontainer
+youtube-video-sentiment-analysis
+yt-video-sentiment-analysis
