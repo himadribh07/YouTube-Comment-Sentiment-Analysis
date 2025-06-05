@@ -138,7 +138,10 @@ import pandas as pd
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from transformers import pipeline
+import torch
+torch.classes.__path__ = [] # Add this line
 
+# ... rest of your code
 # --- Set up API Key with error handling ---
 try:
     api_key = st.secrets["api_key"]
