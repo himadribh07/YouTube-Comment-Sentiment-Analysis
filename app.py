@@ -220,7 +220,7 @@ def analyze_sentiment(comments, batch_size=32):  # Add batch_size
     return pd.DataFrame(results)
 
 # ... in your main block:
-df = analyze_sentiment(comment_texts)  #  Use the function
+# df = analyze_sentiment(comment_texts)  #  Use the function
 
 # --- Streamlit UI ---
 st.title("📊 YouTube Video Comment Sentiment Analysis")
