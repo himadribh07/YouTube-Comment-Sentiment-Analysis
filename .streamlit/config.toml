@@ -1,5 +1,5 @@
 [server]
-runOnSave = false
+runOnSave = true
 
-[watcher]
-type = "none"
+[logger]
+level = "info"
