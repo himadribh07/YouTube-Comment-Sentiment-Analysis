@@ -6,11 +6,11 @@ A Streamlit web app that fetches the top comments from a YouTube video and analy
 
 ## 🚀 Features
 
-- 🔍 Fetches up to 500 top-level comments from a YouTube video.
-- 🤖 Performs sentiment analysis (Positive / Negative) using a transformer model.
-- ✅ Filters out comments containing links (to avoid spam).
-- 🌟 Displays most liked comment (excluding link-containing ones).
-- 📈 Summarizes the overall viewer sentiment.
+- 🔍 Fetches up to **500 top-level comments** from a YouTube video using the YouTube Data API.
+- 🤖 Performs **sentiment analysis (Positive / Negative / Neutral)** using a Hugging Face transformer model.
+- ✅ Filters out comments containing links (to reduce spam and noise).
+- 🌟 Displays the **most liked valid comment** (excluding link-containing ones).
+- 📈 Summarizes the **overall sentiment distribution** across comments (e.g., % positive, % negative, % neutral).
 
 ---
 
